@@ -1,0 +1,6 @@
+framework module Pods_FSPagerView_Slider {
+  umbrella header "Pods-FSPagerView Slider-umbrella.h"
+
+  export *
+  module * { export * }
+}

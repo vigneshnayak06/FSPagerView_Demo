@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74DDCDE424D7F1E1007578F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDCDE324D7F1E1007578F4 /* AppDelegate.swift */; };
+		74DDCDE624D7F1E1007578F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDCDE524D7F1E1007578F4 /* SceneDelegate.swift */; };
+		74DDCDE824D7F1E1007578F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDCDE724D7F1E1007578F4 /* ViewController.swift */; };
+		74DDCDEB24D7F1E1007578F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DDCDE924D7F1E1007578F4 /* Main.storyboard */; };
+		74DDCDED24D7F1E4007578F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DDCDEC24D7F1E4007578F4 /* Assets.xcassets */; };
+		74DDCDF024D7F1E4007578F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DDCDEE24D7F1E4007578F4 /* LaunchScreen.storyboard */; };
+		74DDCDF924D80924007578F4 /* CustomFSPagerViewCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDCDF724D80924007578F4 /* CustomFSPagerViewCellCollectionViewCell.swift */; };
+		74DDCDFA24D80924007578F4 /* CustomFSPagerViewCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74DDCDF824D80924007578F4 /* CustomFSPagerViewCellCollectionViewCell.xib */; };
+		8523D1C63B802814730EDA3E /* Pods_FSPagerView_Slider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551551383C50F1BCAC824F49 /* Pods_FSPagerView_Slider.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AD55FC8B38AC5FB5D0FFAC3 /* Pods-FSPagerView Slider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSPagerView Slider.release.xcconfig"; path = "Target Support Files/Pods-FSPagerView Slider/Pods-FSPagerView Slider.release.xcconfig"; sourceTree = "<group>"; };
+		551551383C50F1BCAC824F49 /* Pods_FSPagerView_Slider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSPagerView_Slider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DDCDE024D7F1E1007578F4 /* FSPagerView Slider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FSPagerView Slider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DDCDE324D7F1E1007578F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74DDCDE524D7F1E1007578F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74DDCDE724D7F1E1007578F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74DDCDEA24D7F1E1007578F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74DDCDEC24D7F1E4007578F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74DDCDEF24D7F1E4007578F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74DDCDF124D7F1E4007578F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74DDCDF724D80924007578F4 /* CustomFSPagerViewCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFSPagerViewCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		74DDCDF824D80924007578F4 /* CustomFSPagerViewCellCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomFSPagerViewCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		CD8AD1FC966FB75F8FE1D673 /* Pods-FSPagerView Slider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSPagerView Slider.debug.xcconfig"; path = "Target Support Files/Pods-FSPagerView Slider/Pods-FSPagerView Slider.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74DDCDDD24D7F1E1007578F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8523D1C63B802814730EDA3E /* Pods_FSPagerView_Slider.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24B51AC1465A60FCA4C58133 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				551551383C50F1BCAC824F49 /* Pods_FSPagerView_Slider.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74DDCDD724D7F1E1007578F4 = {
+			isa = PBXGroup;
+			children = (
+				74DDCDE224D7F1E1007578F4 /* FSPagerView Slider */,
+				74DDCDE124D7F1E1007578F4 /* Products */,
+				CAB4ABC6D94AEF8D8435B0E8 /* Pods */,
+				24B51AC1465A60FCA4C58133 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74DDCDE124D7F1E1007578F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74DDCDE024D7F1E1007578F4 /* FSPagerView Slider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74DDCDE224D7F1E1007578F4 /* FSPagerView Slider */ = {
+			isa = PBXGroup;
+			children = (
+				74DDCDE324D7F1E1007578F4 /* AppDelegate.swift */,
+				74DDCDE524D7F1E1007578F4 /* SceneDelegate.swift */,
+				74DDCDE724D7F1E1007578F4 /* ViewController.swift */,
+				74DDCDE924D7F1E1007578F4 /* Main.storyboard */,
+				74DDCDEC24D7F1E4007578F4 /* Assets.xcassets */,
+				74DDCDEE24D7F1E4007578F4 /* LaunchScreen.storyboard */,
+				74DDCDF124D7F1E4007578F4 /* Info.plist */,
+				74DDCDF724D80924007578F4 /* CustomFSPagerViewCellCollectionViewCell.swift */,
+				74DDCDF824D80924007578F4 /* CustomFSPagerViewCellCollectionViewCell.xib */,
+			);
+			path = "FSPagerView Slider";
+			sourceTree = "<group>";
+		};
+		CAB4ABC6D94AEF8D8435B0E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD8AD1FC966FB75F8FE1D673 /* Pods-FSPagerView Slider.debug.xcconfig */,
+				4AD55FC8B38AC5FB5D0FFAC3 /* Pods-FSPagerView Slider.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74DDCDDF24D7F1E1007578F4 /* FSPagerView Slider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DDCDF424D7F1E4007578F4 /* Build configuration list for PBXNativeTarget "FSPagerView Slider" */;
+			buildPhases = (
+				24DFAE245D4BB929F4D619E0 /* [CP] Check Pods Manifest.lock */,
+				74DDCDDC24D7F1E1007578F4 /* Sources */,
+				74DDCDDD24D7F1E1007578F4 /* Frameworks */,
+				74DDCDDE24D7F1E1007578F4 /* Resources */,
+				8F85E775F7EA8D63025D1AE3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FSPagerView Slider";
+			productName = "FSPagerView Slider";
+			productReference = 74DDCDE024D7F1E1007578F4 /* FSPagerView Slider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74DDCDD824D7F1E1007578F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Niveus Solutions";
+				TargetAttributes = {
+					74DDCDDF24D7F1E1007578F4 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 74DDCDDB24D7F1E1007578F4 /* Build configuration list for PBXProject "FSPagerView Slider" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74DDCDD724D7F1E1007578F4;
+			productRefGroup = 74DDCDE124D7F1E1007578F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74DDCDDF24D7F1E1007578F4 /* FSPagerView Slider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74DDCDDE24D7F1E1007578F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DDCDF024D7F1E4007578F4 /* LaunchScreen.storyboard in Resources */,
+				74DDCDFA24D80924007578F4 /* CustomFSPagerViewCellCollectionViewCell.xib in Resources */,
+				74DDCDED24D7F1E4007578F4 /* Assets.xcassets in Resources */,
+				74DDCDEB24D7F1E1007578F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24DFAE245D4BB929F4D619E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FSPagerView Slider-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F85E775F7EA8D63025D1AE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FSPagerView Slider/Pods-FSPagerView Slider-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FSPagerView Slider/Pods-FSPagerView Slider-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FSPagerView Slider/Pods-FSPagerView Slider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74DDCDDC24D7F1E1007578F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DDCDE824D7F1E1007578F4 /* ViewController.swift in Sources */,
+				74DDCDF924D80924007578F4 /* CustomFSPagerViewCellCollectionViewCell.swift in Sources */,
+				74DDCDE424D7F1E1007578F4 /* AppDelegate.swift in Sources */,
+				74DDCDE624D7F1E1007578F4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74DDCDE924D7F1E1007578F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74DDCDEA24D7F1E1007578F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74DDCDEE24D7F1E4007578F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74DDCDEF24D7F1E4007578F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74DDCDF224D7F1E4007578F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74DDCDF324D7F1E4007578F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74DDCDF524D7F1E4007578F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD8AD1FC966FB75F8FE1D673 /* Pods-FSPagerView Slider.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FSPagerView Slider/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codessample.FSPagerView-Slider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74DDCDF624D7F1E4007578F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD55FC8B38AC5FB5D0FFAC3 /* Pods-FSPagerView Slider.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FSPagerView Slider/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codessample.FSPagerView-Slider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74DDCDDB24D7F1E1007578F4 /* Build configuration list for PBXProject "FSPagerView Slider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DDCDF224D7F1E4007578F4 /* Debug */,
+				74DDCDF324D7F1E4007578F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DDCDF424D7F1E4007578F4 /* Build configuration list for PBXNativeTarget "FSPagerView Slider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DDCDF524D7F1E4007578F4 /* Debug */,
+				74DDCDF624D7F1E4007578F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74DDCDD824D7F1E1007578F4 /* Project object */;
+}
